@@ -1,0 +1,286 @@
+[
+    {
+        "n": "1",
+        "worker_count": 1,
+        "threads": "1",
+        "dist": "load",
+        "average_time": 4.561195929845174,
+        "flaky_tests": [],
+        "failures_per_run": [
+            {
+                "execution_time": 4.626753330230713,
+                "failed_tests": []
+            },
+            {
+                "execution_time": 4.548358201980591,
+                "failed_tests": []
+            },
+            {
+                "execution_time": 4.508476257324219,
+                "failed_tests": []
+            }
+        ],
+        "test_failure_counts": {}
+    },
+    {
+        "n": "1",
+        "worker_count": 1,
+        "threads": "1",
+        "dist": "no",
+        "average_time": 4.582898378372192,
+        "flaky_tests": [],
+        "failures_per_run": [
+            {
+                "execution_time": 4.536118507385254,
+                "failed_tests": []
+            },
+            {
+                "execution_time": 4.572476387023926,
+                "failed_tests": []
+            },
+            {
+                "execution_time": 4.6401002407073975,
+                "failed_tests": []
+            }
+        ],
+        "test_failure_counts": {}
+    },
+    {
+        "n": "1",
+        "worker_count": 1,
+        "threads": "auto",
+        "dist": "load",
+        "average_time": 48.950138092041016,
+        "flaky_tests": [
+            "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding",
+            "tests/test_heap.py::TestBinaryHeap::test_insert",
+            "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+            "tests/test_linkedlist.py::TestSuite::test_is_palindrome"
+        ],
+        "failures_per_run": [
+            {
+                "execution_time": 49.06287360191345,
+                "failed_tests": [
+                    "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding",
+                    "tests/test_heap.py::TestBinaryHeap::test_insert",
+                    "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+                    "tests/test_linkedlist.py::TestSuite::test_is_palindrome"
+                ]
+            },
+            {
+                "execution_time": 49.05289816856384,
+                "failed_tests": [
+                    "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding",
+                    "tests/test_heap.py::TestBinaryHeap::test_insert",
+                    "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+                    "tests/test_linkedlist.py::TestSuite::test_is_palindrome"
+                ]
+            },
+            {
+                "execution_time": 48.73464250564575,
+                "failed_tests": [
+                    "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding",
+                    "tests/test_heap.py::TestBinaryHeap::test_insert",
+                    "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+                    "tests/test_linkedlist.py::TestSuite::test_is_palindrome"
+                ]
+            }
+        ],
+        "test_failure_counts": {
+            "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding": 3,
+            "tests/test_heap.py::TestBinaryHeap::test_insert": 3,
+            "tests/test_heap.py::TestBinaryHeap::test_remove_min": 3,
+            "tests/test_linkedlist.py::TestSuite::test_is_palindrome": 3
+        }
+    },
+    {
+        "n": "1",
+        "worker_count": 1,
+        "threads": "auto",
+        "dist": "no",
+        "average_time": 48.78485520680746,
+        "flaky_tests": [
+            "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding",
+            "tests/test_heap.py::TestBinaryHeap::test_insert",
+            "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+            "tests/test_linkedlist.py::TestSuite::test_is_palindrome"
+        ],
+        "failures_per_run": [
+            {
+                "execution_time": 49.163896799087524,
+                "failed_tests": [
+                    "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding",
+                    "tests/test_heap.py::TestBinaryHeap::test_insert",
+                    "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+                    "tests/test_linkedlist.py::TestSuite::test_is_palindrome"
+                ]
+            },
+            {
+                "execution_time": 48.673614263534546,
+                "failed_tests": [
+                    "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding",
+                    "tests/test_heap.py::TestBinaryHeap::test_insert",
+                    "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+                    "tests/test_linkedlist.py::TestSuite::test_is_palindrome"
+                ]
+            },
+            {
+                "execution_time": 48.51705455780029,
+                "failed_tests": [
+                    "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding",
+                    "tests/test_heap.py::TestBinaryHeap::test_insert",
+                    "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+                    "tests/test_linkedlist.py::TestSuite::test_is_palindrome"
+                ]
+            }
+        ],
+        "test_failure_counts": {
+            "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding": 3,
+            "tests/test_heap.py::TestBinaryHeap::test_insert": 3,
+            "tests/test_heap.py::TestBinaryHeap::test_remove_min": 3,
+            "tests/test_linkedlist.py::TestSuite::test_is_palindrome": 3
+        }
+    },
+    {
+        "n": "auto",
+        "worker_count": 16,
+        "threads": "1",
+        "dist": "load",
+        "average_time": 4.622077862421672,
+        "flaky_tests": [],
+        "failures_per_run": [
+            {
+                "execution_time": 4.5581982135772705,
+                "failed_tests": []
+            },
+            {
+                "execution_time": 4.578464984893799,
+                "failed_tests": []
+            },
+            {
+                "execution_time": 4.729570388793945,
+                "failed_tests": []
+            }
+        ],
+        "test_failure_counts": {}
+    },
+    {
+        "n": "auto",
+        "worker_count": 16,
+        "threads": "1",
+        "dist": "no",
+        "average_time": 4.725950797398885,
+        "flaky_tests": [],
+        "failures_per_run": [
+            {
+                "execution_time": 4.607491970062256,
+                "failed_tests": []
+            },
+            {
+                "execution_time": 4.890138387680054,
+                "failed_tests": []
+            },
+            {
+                "execution_time": 4.680222034454346,
+                "failed_tests": []
+            }
+        ],
+        "test_failure_counts": {}
+    },
+    {
+        "n": "auto",
+        "worker_count": 16,
+        "threads": "auto",
+        "dist": "load",
+        "average_time": 39.37345894177755,
+        "flaky_tests": [
+            "tests/test_heap.py::TestBinaryHeap::test_insert",
+            "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+            "tests/test_linkedlist.py::TestSuite::test_is_palindrome",
+            "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding"
+        ],
+        "failures_per_run": [
+            {
+                "execution_time": 39.95488142967224,
+                "failed_tests": [
+                    "tests/test_heap.py::TestBinaryHeap::test_insert",
+                    "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+                    "tests/test_linkedlist.py::TestSuite::test_is_palindrome",
+                    "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding"
+                ]
+            },
+            {
+                "execution_time": 39.10808992385864,
+                "failed_tests": [
+                    "tests/test_heap.py::TestBinaryHeap::test_insert",
+                    "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+                    "tests/test_linkedlist.py::TestSuite::test_is_palindrome",
+                    "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding"
+                ]
+            },
+            {
+                "execution_time": 39.05740547180176,
+                "failed_tests": [
+                    "tests/test_heap.py::TestBinaryHeap::test_insert",
+                    "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+                    "tests/test_linkedlist.py::TestSuite::test_is_palindrome",
+                    "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding"
+                ]
+            }
+        ],
+        "test_failure_counts": {
+            "tests/test_heap.py::TestBinaryHeap::test_insert": 3,
+            "tests/test_heap.py::TestBinaryHeap::test_remove_min": 3,
+            "tests/test_linkedlist.py::TestSuite::test_is_palindrome": 3,
+            "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding": 3
+        }
+    },
+    {
+        "n": "auto",
+        "worker_count": 16,
+        "threads": "auto",
+        "dist": "no",
+        "average_time": 39.25410024325053,
+        "flaky_tests": [
+            "tests/test_heap.py::TestBinaryHeap::test_insert",
+            "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+            "tests/test_linkedlist.py::TestSuite::test_is_palindrome",
+            "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding"
+        ],
+        "failures_per_run": [
+            {
+                "execution_time": 39.613120794296265,
+                "failed_tests": [
+                    "tests/test_heap.py::TestBinaryHeap::test_insert",
+                    "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+                    "tests/test_linkedlist.py::TestSuite::test_is_palindrome",
+                    "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding"
+                ]
+            },
+            {
+                "execution_time": 39.05716872215271,
+                "failed_tests": [
+                    "tests/test_heap.py::TestBinaryHeap::test_insert",
+                    "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+                    "tests/test_linkedlist.py::TestSuite::test_is_palindrome",
+                    "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding"
+                ]
+            },
+            {
+                "execution_time": 39.09201121330261,
+                "failed_tests": [
+                    "tests/test_heap.py::TestBinaryHeap::test_insert",
+                    "tests/test_heap.py::TestBinaryHeap::test_remove_min",
+                    "tests/test_linkedlist.py::TestSuite::test_is_palindrome",
+                    "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding"
+                ]
+            }
+        ],
+        "test_failure_counts": {
+            "tests/test_heap.py::TestBinaryHeap::test_insert": 3,
+            "tests/test_heap.py::TestBinaryHeap::test_remove_min": 3,
+            "tests/test_linkedlist.py::TestSuite::test_is_palindrome": 3,
+            "tests/test_compression.py::TestHuffmanCoding::test_huffman_coding": 3
+        }
+    }
+]
